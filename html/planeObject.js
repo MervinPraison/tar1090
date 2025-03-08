@@ -1,5 +1,8 @@
 "use strict";
 
+let enableLabels = false;
+let extendedLabels = 0;
+
 function PlaneObject(icao) {
     icao = `${icao}`;
 
